@@ -1,0 +1,57 @@
+{
+    "name": "Joycons",
+    "maps": [
+        {
+            "name": "LeftHandGrab",
+            "id": "bddf223d-89f1-4fc2-a48d-a98f3354708f",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "3b3d2aad-13f4-4776-b2f8-b233f56a66a0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e2ddff92-63cd-43aa-b3aa-bbf73cadb040",
+                    "path": "<XRController>{LeftHand}/primary2DAxisClick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycons",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cdca388a-6fa8-4dd6-9019-db336dac7820",
+                    "path": "<XRController>{LeftHand}/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Joycons",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Joycons",
+            "bindingGroup": "Joycons",
+            "devices": [
+                {
+                    "devicePath": "<XRController>{LeftHand}",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
